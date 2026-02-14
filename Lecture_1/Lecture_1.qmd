@@ -380,7 +380,7 @@ $$x = f_1(\varphi, \lambda), \; y = f_2(\varphi, \lambda)$$
 ::: {.column width="50%"}
 
 <iframe
-src="https://www.geogebra.org/classic/nspucyug?embed"
+src="https://www.geogebra.org/material/iframe/id/nspucyug"
 style="width:100%; height:70vh; border:0; overflow:hidden;"
 allowfullscreen>
 overflow:hidden;</iframe>
