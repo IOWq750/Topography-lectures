@@ -621,4 +621,8 @@ overflow:hidden;</iframe>
 
 ::::
 
- 
+---
+
+##  Сюрприз № 1
+
+![](Lecture_1_files/pics/Surprize_1.png){style="height:100vh; object-fit:contain;"}
