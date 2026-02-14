@@ -296,11 +296,11 @@ $$x = f_1(\varphi, \lambda), \; y = f_2(\varphi, \lambda)$$
 :::: {.columns}
 
 ::: {.column width="50%"}
-![](Lecture_1_files/pics/mandarin_0.jpg){width=84% height=60vh object-fit="contain"}
+![](Lecture_1_files/pics/Mandarin_1.jpg){width=84% height=60vh object-fit="contain"}
 :::
 
 ::: {.column width="50%"}
-![](Lecture_1_files/pics/mandarin_1.jpg){width=100% height=60vh object-fit="contain"}
+![](Lecture_1_files/pics/Mandarin_2.jpg){width=100% height=60vh object-fit="contain"}
 :::
 
 ::::
