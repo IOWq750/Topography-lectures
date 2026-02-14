@@ -231,7 +231,7 @@ format:
 
 ## Системы счёта высот
 
-![](Lecture_1_files/pics/Heights.png){style="height:50vh; object-fit:contain;"}
+![](Lecture_1_files/pics/Heights.png){style="height:35vh; object-fit:contain;"}
 
 **Высоты** — расстояния от поверхности Земли до определённой поверхности отсчёта, измеренные по отвесной линии
 
