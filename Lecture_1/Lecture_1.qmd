@@ -13,8 +13,8 @@ format:
     width: 1280
     height: 720
     margin: 0.06
-    minScale: 0.4
-    maxScale: 1.5
+    minScale: 0.7
+    maxScale: 1.0
 
     # Навигация
     slide-number: true
@@ -610,4 +610,5 @@ overflow:hidden;</iframe>
 
 ##  Сюрприз № 1
 
-![](Lecture_1_files/pics/Surprize_1.png){style="height:80vh; object-fit:contain;"}
+
+![](Lecture_1_files/pics/Surprize_1.png){style="height:75vh; object-fit:contain;"}
