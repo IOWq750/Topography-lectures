@@ -112,9 +112,9 @@ format:
   - Математическая основа
 - <span style="color:#F5A623">Рамка</span>
 - <span style="color:#2E74B5">Легенда</span>
-- <span style="color:black">За рамочное оформление</span>
-  - Вспомогательное оснащение
-  - Дополнительное содержание
+- Зарамочное оформление
+  - <span style="color:#E91E63">Вспомогательное оснащение</span>
+  - <span style="color:#FF0000">Дополнительное содержание</span>
 
 :::
 
@@ -529,27 +529,7 @@ format:
 
 ---
 
-## Сдвиг, отбор, упрощение
-
-:::: {.columns}
-
-::: {.column width="50%}
-
-![](Lecture_2_files/pics/Geology_1.png)
-
-:::
-
-::: {.column width="50%}
-
-![](Lecture_2_files/pics/Geology_2.png)
-
-:::
-
-::::
-
----
-
-## Сдвиг, отбор, упрощение
+## <span style="color:#FF0000">Сдвиг</span>, <span style="color:#1FA3D6">отбор</span>, <span style="color:#F4B000">упрощение</span>
 
 ![](Lecture_2_files/pics/Generalization.png)
 
