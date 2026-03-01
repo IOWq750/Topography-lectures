@@ -38,7 +38,7 @@ format:
 - Необходимо привязать топографическую карту, выполнить векторизацию фрагмента и оформить его в макете
 - Результат высылается на почту <karpachevskiy@geogr.msu.ru>, указывается группа и ФИО (в противном случае работа не будет рассматриваться)
 - Консультации по QGIS: с середины марта, аудитория 1919 (время уточняется)
-- Справка: <https://iowq750.github.io/Topography> (подробнее – в ведомости)
+- Справка: <https://iowq750.github.io/Topography> (подробнее – на сайте)
 
 ---
 
@@ -545,4 +545,4 @@ format:
 
 <https://forms.gle/ourrVYgoZZqDhGzA9>
 
-![](Lecture_2_files/pics/Surprize_3.png){style="height:65vh; object-fit:contain;"}
+![](Lecture_2_files/pics/Surprize_3.png){style="height:55vh; object-fit:contain;"}
