@@ -6,7 +6,7 @@ author: "с.н.с., к.г.н. Карпачевский Андрей Михайл
 format:
   revealjs:
     css: styles.css
-    theme: simple
+    theme: [default, custom.scss]
     transition: fade
 
     margin: 0.02
