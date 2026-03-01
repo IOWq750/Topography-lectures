@@ -69,3 +69,18 @@ $presentation-h1-font-size: 2em;
 .reveal .code-large code {
   font-size: 1.5em;
 }
+
+/* База для десктопа */
+.reveal { font-size: 28px; }
+.reveal h1 { font-size: 1.8em; line-height: 1.1; }
+
+/* Планшеты/телефоны */
+@media (max-width: 900px) {
+  .reveal { font-size: 22px; }
+  .reveal h1 { font-size: 1.5em; }
+}
+
+@media (max-width: 600px) {
+  .reveal { font-size: 20px; }
+  .reveal h1 { font-size: 1.35em; }
+}
