@@ -9,12 +9,7 @@ format:
     theme: simple
     transition: fade
 
-    # Размер под проекторы и записи экрана
-    width: 1280
-    height: 720
-    margin: 0.06
-    minScale: 0.7
-    maxScale: 1.0
+    margin: 0.02
 
     # Навигация
     slide-number: true

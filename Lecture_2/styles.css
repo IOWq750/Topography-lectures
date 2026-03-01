@@ -1,0 +1,104 @@
+.two-cols {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: 40px;
+  align-items: start;
+}
+
+.two-cols .left {
+  font-size: 1.05em;
+}
+
+.two-cols .right {
+  text-align: center;
+}
+
+.book-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 30px;
+  margin-bottom: 1.2em;
+}
+
+.book-row img {
+  height: 260px;
+  object-fit: contain;
+  justify-self: center;
+}
+
+.refs-small {
+  font-size: 0.62em;   /* <- ключевое */
+  line-height: 1.08;   /* <- ключевое */
+}
+
+.refs-small ul {
+  margin-top: 0.2em;
+}
+
+.refs-small li {
+  margin: 0.12em 0;
+}
+
+.compact-list {
+  font-size: 0.78em;   /* основной “рычаг” */
+  line-height: 1.12;   /* плотнее строки */
+}
+
+.compact-list ul {
+  margin-top: 0.2em;
+}
+
+.compact-list li {
+  margin: 0.22em 0;    /* меньше вертикальных отступов между пунктами */
+}
+
+/* Две таблицы рядом: правая шире */
+.ellipsoid-grid{
+  display: grid;
+  grid-template-columns: 0.44fr 0.56fr;
+  gap: 22px;
+  align-items: start;
+}
+
+/* Сжимаем ТОЛЬКО эти таблицы */
+.ellipsoid-table table{
+  font-size: 0.62em;     /* ключ: меньше кегль */
+  line-height: 1.05;
+}
+
+/* Уменьшаем внутренние отступы ячеек */
+.ellipsoid-table th,
+.ellipsoid-table td{
+  padding: 0.18em 0.35em;
+  white-space: nowrap;    /* ключ: не переносить числа */
+}
+
+/* Заголовки столбцов тоже не переносить */
+.ellipsoid-table th{
+  white-space: nowrap;
+}
+
+/* Ссылки внизу компактнее */
+.ellipsoid-refs{
+  margin-top: 0.5em;
+  font-size: 0.55em;
+  line-height: 1.1;
+}
+
+.img-with-caption img {
+  width: 100%;
+  max-height: 32vh;   /* ключевая строка */
+  object-fit: contain;
+}
+
+.polar-columns {
+  gap: 40px;
+  align-items: start;
+}
+
+.polar-img img {
+  width: 100%;
+  object-fit: contain;
+}
+
+
