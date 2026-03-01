@@ -5,12 +5,14 @@ author: "с.н.с., к.г.н. Карпачевский Андрей Михайл
 
 format:
   revealjs:
-    include-in-header: 
-      text: |
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     css: styles.css
-    theme: simple
+    theme: [default, custom.scss]
     transition: fade
+    width: 1280
+    height: 720
+    margin: 0.05
+    min-scale: 0.2
+    max-scale: 2.5
 
     # Навигация
     slide-number: true
@@ -44,17 +46,15 @@ format:
 
 <https://forms.gle/P6jTfyWtUxnVW6pA9>
 
-![](Lecture_2_files/pics/Surprize_2.png){style="height:75vh; object-fit:contain;"}
+![](Lecture_2_files/pics/Surprize_2.png){style="height:55vh; object-fit:contain;"}
 
 ---
 
 ## Понятие карты
 
-<div class="compact-list">
 - **Карта** – это математически определённое, уменьшенное, генерализованное изображение поверхности Земли, другого небесного тела или космического пространства, показывающее расположенные или спроецированные на них объекты в принятой системе условных знаков [Берлянт, 2010]
 - **Топографическая карта** – карта, передающая внешний облик земной поверхности, слагаемый из визуально различимых элементов местности
 - **Масштаб** –  степень уменьшения объектов на карте относительно их размеров на земной поверхности
-</div>
 
 ---
 
@@ -64,7 +64,6 @@ format:
 
 ::: {.column width="40%"}
 
-<div class="compact-list">
 - **Общегеографические карты**
   - Топографические карты
 - **Тематические карты**
@@ -75,15 +74,14 @@ format:
   - Навигационные карты
   - Кадастровые карты
   - ...
-</div>
 
 :::
 
 ::: {.column width="60%"}
 
-![](Lecture_2_files/pics/Topo_City.png)
+![](Lecture_2_files/pics/Topo_City.png){style="height:25vh; object-fit:contain;"}
 
-![](Lecture_2_files/pics/Climate.png)
+![](Lecture_2_files/pics/Climate.png){style="height:25vh; object-fit:contain;"}
 
 :::
 
@@ -100,8 +98,6 @@ format:
 
 ![](Lecture_2_files/pics/Scales.png)
 
-![](Lecture_2_files/pics/Surprize_2.png){style="height:75vh; object-fit:contain;"}
-
 ---
 
 ## Элементы карты
@@ -110,17 +106,15 @@ format:
 
 ::: {.column width="40%"}
 
-<div class="compact-list">
-- Картографическое изображение
+- <span style="color:#7BC043">Картографическое изображение</span>
   - Тематическое содержание
   - Географическая основа
   - Математическая основа
-- Рамка
-- Легенда
-- Зарамочное оформление
+- <span style="color:#F5A623">Рамка</span>
+- <span style="color:#2E74B5">Легенда</span>
+- <span style="color:black">За рамочное оформление</span>
   - Вспомогательное оснащение
   - Дополнительное содержание
-</div>
 
 :::
 
@@ -136,7 +130,6 @@ format:
 
 ## Содержание топографических карт
 
-<div class="compact-list">
 Все видимые элементы местности подразделяются на:
 
 - Рельеф
@@ -150,7 +143,6 @@ format:
   - Грунты
   - Границы и ограждения
   - Подписи
-</div>
 
 ---
 
@@ -183,15 +175,15 @@ format:
 
 ::: {.column width="50%"}
 
-![](Lecture_2_files/pics/Point_Symbols.png)
+![](Lecture_2_files/pics/Point_Symbols.png){style="height:20vh; object-fit:contain;"}
 
-![](Lecture_2_files/pics/Line_Symbols.png)
+![](Lecture_2_files/pics/Line_Symbols.png){style="height:30vh; object-fit:contain;"}
 
 :::
 
 ::: {.column width="50%"}
 
-![](Lecture_2_files/pics/Polygon_Symbols.png)
+![](Lecture_2_files/pics/Polygon_Symbols.png){style="height:55vh; object-fit:contain;"}
 
 :::
 
@@ -203,13 +195,12 @@ format:
 
 **Горизонтали** — линии равных высот
 
-![](Lecture_2_files/pics/Contours.png){style="height:35vh; object-fit:contain;"}
+![](Lecture_2_files/pics/Contours.png){style="height:50vh; object-fit:contain;"}
 
 ---
 
 ## Способы изображения тематических карт
 
-<div class="compact-list">
 - Точечная локализация
   - Значки
 - Линейная локализация
@@ -220,7 +211,6 @@ format:
   - Ареалы, точечный способ
 - Иное
   - Локализованная диаграмма
-</div>
 
 ---
 
@@ -238,24 +228,20 @@ format:
 
 ::: {.column width="50%"}
 
-<div class="compact-list">
 - Точечная локализация
 - Значки бывают: 
   - геометрические,
   - буквенные, 
   - наглядные (символические и натуралистические)
 - Характеристика – качественная и количественная
-</div>
 
-![](Lecture_2_files/pics/Industry.png)
+![](Lecture_2_files/pics/Industry.png){style="height:25vh; object-fit:contain;"} ![](Lecture_2_files/pics/Poi.png){style="height:25vh; object-fit:contain;"}
 
 :::
 
 ::: {.column width="50%}
 
-![](Lecture_2_files/pics/Chemistry.png)
-
-![](Lecture_2_files/pics/Poi.png)
+![](Lecture_2_files/pics/Chemistry.png){style="height:55vh; object-fit:contain;"}
 
 :::
 
@@ -273,13 +259,13 @@ format:
 
 ::: {.column width="50%}
 
-![](Lecture_2_files/pics/Lines_1.png)
+![](Lecture_2_files/pics/Lines_1.png){style="height:45vh; object-fit:contain;"}
 
 :::
 
 ::: {.column width="50%}
 
-![](Lecture_2_files/pics/Lines_2.png)
+![](Lecture_2_files/pics/Lines_2.png){style="height:45vh; object-fit:contain;"}
 
 :::
 
@@ -289,30 +275,22 @@ format:
 
 ## Знаки движения
 
-<div class="compact-list">
-- Локализация – на линии/площади
-- Графические средства – стрелки, векторы, полосы разной ширины, структуры, цвета
-- Характеристика – качественная и количественная
-- Указывается направление перемещения
-</div>
-
 :::: {.columns}
 
 ::: {.column width="30%}
 
-![](Lecture_2_files/pics/Passengers.png)
+- Локализация – на линии/площади
+- Графические средства – стрелки, векторы, полосы разной ширины, структуры, цвета
+- Характеристика – качественная и количественная
+- Указывается направление перемещения
+
+![](Lecture_2_files/pics/Cargo.png){style="height:35vh; object-fit:contain;"}
 
 :::
 
 ::: {.column width="50%}
 
-![](Lecture_2_files/pics/Cargo.png)
-
-:::
-
-::: {.column width="20%}
-
-![](Lecture_2_files/pics/Currents.png)
+![](Lecture_2_files/pics/Passengers.png){style="height:45vh; object-fit:contain;"} ![](Lecture_2_files/pics/Currents.png){style="height:45vh; object-fit:contain;"}
 
 :::
 
@@ -322,24 +300,22 @@ format:
 
 ## Качественный фон
 
-<div class="compact-list">
-- Локализация – на площади (сплошного распространения)
-- Графические средства – цвет, штриховка
-- Характеристика – качественная
-- Наличие классификации
-</div>
-
 :::: {.columns}
 
 ::: {.column width="50%}
 
-![](Lecture_2_files/pics/Vegetation.png)
+- Локализация – на площади (сплошного распространения)
+- Графические средства – цвет, штриховка
+- Характеристика – качественная
+- Наличие классификации
+
+![](Lecture_2_files/pics/Vegetation.png){style="height:40vh; object-fit:contain;"}
 
 :::
 
 ::: {.column width="50%}
 
-![](Lecture_2_files/pics/Soils.png)
+![](Lecture_2_files/pics/Soils.png){style="height:55vh; object-fit:contain;"}
 
 :::
 
@@ -351,23 +327,23 @@ format:
 
 :::: {.columns}
 
-::: {.column width="50%}
+::: {.column width="60%}
 
 - Локализация – на площади (сплошного распространения)
 - Графические средства – цвет, штриховка
 - Характеристика – количественная
 
+![](Lecture_2_files/pics/Agroclimate.png){style="height:45vh; object-fit:contain;"}
+
 :::
 
-::: {.column width="50%}
+::: {.column width="40%}
 
-![](Lecture_2_files/pics/Sakhalin.png)
+![](Lecture_2_files/pics/Sakhalin.png){style="height:50vh; object-fit:contain;"}
 
 :::
 
 ::::
-
-![](Lecture_2_files/pics/Agroclimate.png)
 
 ---
 
@@ -375,23 +351,19 @@ format:
 
 :::: {.columns}
 
-::: {.column width="60%}
+::: {.column width="45%}
 
-<div class="compact-list">
 - Локализация – на площади (сплошного распространения), по сетке АТД или природного деления
 - Графические средства – цвет, штриховка
 - Характеристика – количественная (по относительным показателям)
-</div>
 
-![](Lecture_2_files/pics/UDP.png)
+![](Lecture_2_files/pics/UDP.png){style="height:35vh; object-fit:contain;"}  ![](Lecture_2_files/pics/Density.png){style="height:20vh; object-fit:contain;"}
 
 :::
 
-::: {.column width="40%}
+::: {.column width="55%}
 
-![](Lecture_2_files/pics/Incidense.png)
-
-![](Lecture_2_files/pics/Density.png)
+![](Lecture_2_files/pics/Incidense.png){style="height:55vh; object-fit:contain;"}
 
 :::
 
@@ -403,21 +375,19 @@ format:
 
 :::: {.columns}
 
-::: {.column width="60%}
+::: {.column width="65%}
 
-<div class="compact-list">
 - Локализация – на площади (сплошного распространения), по сетке АТД или природного деления
 - Графические средства – диаграммы, цвет, штриховка
 - Характеристика – количественная (по абсолютным показателям)
-</div>
 
-![](Lecture_2_files/pics/Production.png)
+![](Lecture_2_files/pics/Production.png){style="height:25vh; object-fit:contain;"} ![](Lecture_2_files/pics/Production_Legend.png){style="height:10vh; object-fit:contain;"}
 
 :::
 
-::: {.column width="40%}
+::: {.column width="35%}
 
-![](Lecture_2_files/pics/Lands.png)
+![](Lecture_2_files/pics/Lands.png){style="height:55vh; object-fit:contain;"}
 
 :::
 
@@ -431,23 +401,21 @@ format:
 
 ::: {.column width="50%}
 
-<div class="compact-list">
 - Локализация – на площади (сплошного распространения)
 - Графические средства – изолинии (изолинии с послойной окраской)
 - Характеристика – количественная
-</div>
+
+![](Lecture_2_files/pics/Isolines.png){style="height:35vh; object-fit:contain;"}
 
 :::
 
 ::: {.column width="50%}
 
-![](Lecture_2_files/pics/Magnitude.png)
+![](Lecture_2_files/pics/Magnitude.png){style="height:55vh; object-fit:contain;"}
 
 :::
 
 ::::
-
-![](Lecture_2_files/pics/Isolines.png)
 
 ---
 
@@ -457,20 +425,18 @@ format:
 
 ::: {.column width="50%}
 
-<div class="compact-list">
 - Локализация – на площади (на отдельных площадях)
 - Графические средства – цвет, штриховка,
 - границы, значки, подписи
 - Характеристика – качественная
-</div>
 
-![](Lecture_2_files/pics/Areals1.png)
+![](Lecture_2_files/pics/Areals1.png){style="height:35vh; object-fit:contain;"}
 
 :::
 
 ::: {.column width="50%}
 
-![](Lecture_2_files/pics/Areals2.png)
+![](Lecture_2_files/pics/Areals2.png){style="height:55vh; object-fit:contain;"}
 
 :::
 
@@ -492,7 +458,7 @@ format:
 
 ::: {.column width="50%}
 
-![](Lecture_2_files/pics/Dots.png)
+![](Lecture_2_files/pics/Dots.png){style="height:55vh; object-fit:contain;"}
 
 :::
 
@@ -504,23 +470,19 @@ format:
 
 :::: {.columns}
 
-::: {.column width="30%}
+::: {.column width="50%}
 
 - Локализация – на площади (рассеянного распространения)
 - Графические средства – значки (точки)
 - Характеристика – количественная
 
-:::
-
-::: {.column width="35%}
-
-![](Lecture_2_files/pics/Diagramm_1.png)
+![](Lecture_2_files/pics/Diagramm_1.png){style="height:40vh; object-fit:contain;"}
 
 :::
 
-::: {.column width="35%}
+::: {.column width="50%}
 
-![](Lecture_2_files/pics/Diagramm_2.png)
+![](Lecture_2_files/pics/Diagramm_2.png){style="height:60vh; object-fit:contain;"}
 
 :::
 
@@ -530,7 +492,6 @@ format:
 
 ## Картографическая генерализация
 
-<div class="compact-list">
 – обобщение качественных и количественных характеристик объектов, замена индивидуальных понятий собирательными, отвлечение от частностей и деталей
 
 Приёмы генерализации:
@@ -545,7 +506,6 @@ format:
   - Объединение контуров
   - Смещение
   - Утрирование
-</div>
 
 ---
 
@@ -555,13 +515,13 @@ format:
 
 ::: {.column width="70%}
 
-![](Lecture_2_files/pics/Geology_1.png)
+![](Lecture_2_files/pics/Geology_1.png){style="height:55vh; object-fit:contain;"}
 
 :::
 
 ::: {.column width="30%}
 
-![](Lecture_2_files/pics/Geology_2.png)
+![](Lecture_2_files/pics/Geology_2.png){style="height:35vh; object-fit:contain;"}
 
 :::
 
@@ -605,4 +565,4 @@ format:
 
 <https://forms.gle/ourrVYgoZZqDhGzA9>
 
-![](Lecture_2_files/pics/Surprize_3.png){style="height:75vh; object-fit:contain;"}
+![](Lecture_2_files/pics/Surprize_3.png){style="height:65vh; object-fit:contain;"}

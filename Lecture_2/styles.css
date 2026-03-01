@@ -1,18 +1,3 @@
-.two-cols {
-  display: grid;
-  grid-template-columns: 1fr 380px;
-  gap: 40px;
-  align-items: start;
-}
-
-.two-cols .left {
-  font-size: 1.05em;
-}
-
-.two-cols .right {
-  text-align: center;
-}
-
 .book-row {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));

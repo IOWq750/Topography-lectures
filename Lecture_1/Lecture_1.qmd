@@ -389,11 +389,11 @@ overflow:hidden;</iframe>
 
 ::: {.column width="20%"}
 
-![](Lecture_1_files/pics/az1.png)
+![](Lecture_1_files/pics/az1.png){height=18vh}
 
-![](Lecture_1_files/pics/az2.png)
+![](Lecture_1_files/pics/az2.png){height=18vh}
 
-![](Lecture_1_files/pics/az3.png)
+![](Lecture_1_files/pics/az3.png){height=18vh}
 
 :::
 
@@ -609,4 +609,4 @@ overflow:hidden;</iframe>
 ##  Сюрприз № 1
 
 
-![](Lecture_1_files/pics/Surprize_1.png){style="height:75vh; object-fit:contain;"}
+![](Lecture_1_files/pics/Surprize_1.png){style="height:65vh; object-fit:contain;"}
