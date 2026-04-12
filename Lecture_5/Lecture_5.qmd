@@ -570,6 +570,6 @@ format:
 
 ## Сюрприз № 6
 
-<https://forms.gle/e7mkMz1V47Eeh6Du6>
+<https://forms.gle/3zE7aKQt7Nfpu9N18>
 
-![](Lecture_5_files/pics/Surprize_5.png){style="height:55vh; object-fit:contain;"}
+![](Lecture_5_files/pics/Surprize_6.png){style="height:55vh; object-fit:contain;"}
